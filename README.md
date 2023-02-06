@@ -1,5 +1,7 @@
 # Bug showcase
 
+https://github.com/codingjoe/django-select2/issues/203
+
 In a fresh venv:
 ```console
 $ pip install -r requirements.txt
