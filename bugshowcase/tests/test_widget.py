@@ -5,7 +5,7 @@ from unittest.mock import patch
 
 
 class TestShowcase(TestCase):
-    @override_settings(A=1)
+    @override_settings(USE_I18N=False)
     @patch("bugshowcase.select2.get_widget", autospec=True)
     def test_1(self, s2):
         self.assertEqual(1 + 1, 2)
